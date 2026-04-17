@@ -7,7 +7,34 @@ public class ObjectDescriber {
         // Подсказка 1: обработайте null отдельным case.
         // Подсказка 2: для Integer укажите "положительное" или "не положительное".
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        return "TODO";
+        switch (obj) {
+            case null -> {
+                return "null";
+            }
+            case Integer i -> {
+                if (i > 0) {
+                    return "Integer: положительное (" + i + ")";
+                } else {
+                    return "Integer: не положительное (" + i + ")";
+                }
+            }
+            case String s -> {
+                if (s.isEmpty()) {
+                    return "String: пустая";
+                } else {
+                    return "String: непустая (\"" + s + "\")";
+                }
+            }
+            case Double d -> {
+                return "Double: " + d;
+            }
+            case int[] arr -> {
+                return "int[]: длина " + arr.length;
+            }
+            default -> {
+                return "Другой объект: " + obj.getClass().getSimpleName();
+            }
+        }
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 
