@@ -12,14 +12,29 @@ public class NumberClassifier {
     public static String classify(int number) {
         // TODO: верните категорию для number по условию задания.
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        return "TODO";
+        if (number == 0) {
+            return "ноль";
+        }
+        if (number < 0) {
+            return "отрицательное";
+        }
+        if (number <= 9) {
+            return "однозначное";
+        }
+        if (number <= 99) {
+            return "двузначное";
+        }
+        if (number <= 999) {
+            return "трёхзначное";
+        }
+        return "большое";
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 
     public static void main(String[] args) {
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        System.out.println("Group: ИМЯ_ВАШЕЙ_ГРУППЫ");
-        System.out.println("Sequence number: ВАШ_ПОРЯДКОВЫЙ_НОМЕР_В_ГРУППЕ");
+        System.out.println("Group: ПИ24-2в");
+        System.out.println("Sequence number: 8");
         System.out.println("Date: " + LocalDate.now());
          // ▲ КОНЕЦ ВАШЕГО КОДА ▲
 
