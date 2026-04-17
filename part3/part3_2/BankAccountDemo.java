@@ -6,7 +6,8 @@ public class BankAccountDemo {
     static {
         // TODO: bankName = "Java Bank"; выведите "Банковская система инициализирована"
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-
+        bankName = "Java Bank";
+        System.out.println("Банковская система инициализирована");
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 
