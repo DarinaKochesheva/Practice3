@@ -1,0 +1,8 @@
+Car | Toyota Camry (2020), fuel=60% | fuel for 500 km: 47,50
+Toyota Camry: beep-beep!
+Car | Lada Vesta (2021), fuel=50% | fuel for 500 km: 40,00
+Lada Vesta: beep-beep!
+Truck | Kamaz 5490 (2019), fuel=70% | fuel for 500 km: 280,00
+ElectricCar | Tesla Model 3 (2022), fuel=0% | fuel for 500 km: 0,00
+Tesla Model 3: beep-beep!
+  Электрозапас хода: 440,0 км
