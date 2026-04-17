@@ -32,7 +32,7 @@ public class ObjectDescriber {
                 return "int[]: длина " + arr.length;
             }
             default -> {
-                return "Другой объект: " + obj.getClass().getSimpleName();
+                return "Другой объект: " + obj;
             }
         }
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
