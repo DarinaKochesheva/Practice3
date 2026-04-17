@@ -17,7 +17,7 @@ public class Car extends Vehicle {
     public double getFuelConsumption() {
         // TODO: 9.5 для automatic, 8.0 для manual.
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        return 0.0;
+        return automatic ? 9.5 : 8.0;
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 
